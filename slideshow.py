@@ -50,7 +50,6 @@ class SlideshowApp:
 
     def apply_fade(self, img, alpha):
         """Apply fade effect by changing the image opacity."""
-        print(type(img))
         img = img.convert("RGBA")
         alpha_channel = img.split()[3].point(lambda p: p * alpha)  # Adjust the alpha channel
         img.putalpha(alpha_channel)
@@ -62,7 +61,7 @@ class SlideshowApp:
 
         # Resize image to fit while maintaining aspect ratio
         img_width, img_height = img.size
-        print(f"Original image dimensions: {img_width}x{img_height}")
+        #print(f"Original image dimensions: {img_width}x{img_height}")
 
         aspect_ratio = img_width / img_height
         if self.screen_width / self.screen_height > aspect_ratio:
@@ -73,7 +72,7 @@ class SlideshowApp:
             new_height = int(new_width / aspect_ratio)
 
         img = img.resize((new_width, new_height), Image.LANCZOS)
-        print(f"Adjusted image dimensions: {new_width}x{new_height}")
+        #print(f"Adjusted image dimensions: {new_width}x{new_height}")
 
         if self.current_image:
             # Fade out the current image
@@ -89,8 +88,7 @@ class SlideshowApp:
     def fade_out(self, img, start_alpha, end_alpha, duration):
         """Fade out effect."""
 
-        print("fading out")
-        steps = 10
+        steps = 20
         interval = duration // steps
         for i in range(steps):
             alpha = start_alpha - (start_alpha - end_alpha) * (i / steps)
@@ -104,8 +102,7 @@ class SlideshowApp:
 
     def fade_in(self, img, start_alpha, end_alpha, duration):
         """Fade in effect."""
-        print('fading in')
-        steps = 10
+        steps = 20
         interval = duration // steps
         for i in range(steps):
             alpha = start_alpha + (end_alpha - start_alpha) * (i / steps)
