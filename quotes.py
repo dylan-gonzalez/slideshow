@@ -160,7 +160,7 @@ def create_quote_image(quote, image_size=(IMAGE_WIDTH, IMAGE_HEIGHT), output_fol
     try:
         font_author = ImageFont.truetype(FONT_AUTHOR, FONT_AUTHOR_SIZE)
     except IOError:
-        font = ImageFont.load_default()  # Fallback to default font if custom font not available
+        font_author = ImageFont.load_default()  # Fallback to default font if custom font not available
     
     # Wrap the text to fit within the image width
     max_width = image_size[0] - 200  # Leave some padding on the sides
