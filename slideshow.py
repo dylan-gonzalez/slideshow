@@ -4,8 +4,8 @@ from itertools import cycle
 from PIL import Image, ImageTk, ImageEnhance
 import random
 
-IMAGES_DIR = 'images'
-QUOTES_IMAGES_DIR = 'quotes_images/1920x1080'
+IMAGES_DIR = '/home/slideshow/slideshow/images'
+QUOTES_IMAGES_DIR = '/home/slideshow/slideshow/quotes_images/1920x1080'
 
 # Get all image files in the current directory
 def get_image_files(image_dir):
@@ -17,6 +17,9 @@ class SlideshowApp:
     def __init__(self, root, image_files, delay=3000, fade_duration=1000, fade=True):
         self.root = root
         self.root.title("Image Slideshow")
+        self.root.protocol('WM_DELETE_WINDOW', self.on_closing)
+        self.root.overrideredirect(1)
+
         self.delay = delay  # Slideshow delay (milliseconds)
         self.fade_duration = fade_duration  # Fade duration (milliseconds)
         self.fade = fade
@@ -33,7 +36,7 @@ class SlideshowApp:
         self.images = cycle([Image.open(img) for img in image_files])
 
         # Create canvas to display the images
-        self.canvas = tk.Canvas(root, bg='black')
+        self.canvas = tk.Canvas(root, bg='black', highlightthickness=0)
         self.canvas.pack(fill=tk.BOTH, expand=True)
         self.canvas.config(width=self.screen_width, height=self.screen_height)
         
@@ -123,6 +126,11 @@ class SlideshowApp:
             img_fade = self.apply_fade(img, alpha)
             self.display_image(img_fade)
         
+    def on_closing():
+        print("Exiting gracefully...")
+        root.destroy()  # Close the Tkinter window
+        sys.exit(0)  # Exit the program
+
 # Main function to start the slideshow
 def start_slideshow():
     image_files = []
@@ -138,7 +146,7 @@ def start_slideshow():
     
     print(image_files)
     root = tk.Tk()
-    app = SlideshowApp(root, image_files, delay=3000, fade_duration=1000, fade=False)
+    app = SlideshowApp(root, image_files, delay=15000, fade_duration=1000, fade=False)
     root.mainloop()
 
 if __name__ == "__main__":
