@@ -16,12 +16,12 @@ for (let i = 0; i < result.snapshotLength; i++) {
 console.log(arr)
 '''
 
-FONT_SIZE = 120
-IMAGE_WIDTH = 3840
-IMAGE_HEIGHT = 2160
+FONT_SIZE = 80#120
+IMAGE_WIDTH = 1920#3840
+IMAGE_HEIGHT = 1080#2160
 FONT = "fonts/Crimson_Text/CrimsonText-Regular.ttf"
 FONT_AUTHOR = "fonts/Crimson_Text/CrimsonText-Italic.ttf"
-FONT_AUTHOR_SIZE = 100
+FONT_AUTHOR_SIZE = 60#100
 
 quotes = [
     "\nLearning never exhausts the mind.\n\n",
@@ -193,9 +193,13 @@ def create_quote_image(quote, image_size=(IMAGE_WIDTH, IMAGE_HEIGHT), output_fol
     draw.text((middle, image_size[1] * 0.8), "Leonardo Da Vinci", font=font_author, fill=(255,255,255))
     
     # Save the image
-    output_path = f"{output_folder}/quote_{quotes.index(quote)+1}.png"
-    img.save(output_path)
-    print(f"Saved: {output_path}")
+    output_dir = f"{output_folder}/{IMAGE_WIDTH}x{IMAGE_HEIGHT}"
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    file_path = output_dir + f"/quote_{quotes.index(quote)+1}.png"
+    img.save(file_path)
+    print(f"Saved: {file_path}")
 
 # Create images for all quotes
 import os
