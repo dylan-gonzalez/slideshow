@@ -5,7 +5,7 @@ from PIL import Image, ImageTk, ImageEnhance
 import random
 
 IMAGES_DIR = 'images'
-QUOTES_IMAGES_DIR = 'quotes_images'
+QUOTES_IMAGES_DIR = 'quotes_images/1920x1080'
 
 # Get all image files in the current directory
 def get_image_files(image_dir):
@@ -21,7 +21,7 @@ class SlideshowApp:
         self.fade_duration = fade_duration  # Fade duration (milliseconds)
 
         # Set the window to fullscreen
-        self.root.attributes('-fullscreen', True)
+        self.root.attributes('-fullscreen', False)
         self.root.bind("<Escape>", self.toggle_fullscreen)  # Allow toggling fullscreen with the Escape key
 
         # Get screen size
@@ -34,6 +34,7 @@ class SlideshowApp:
         # Create canvas to display the images
         self.canvas = tk.Canvas(root, bg='black')
         self.canvas.pack(fill=tk.BOTH, expand=True)
+        self.canvas.config(width=self.screen_width, height=self.screen_height)
         
         # Initialize image variables to keep references
         self.current_image = None #For applying fade effects (PIL)
@@ -61,6 +62,8 @@ class SlideshowApp:
 
         # Resize image to fit while maintaining aspect ratio
         img_width, img_height = img.size
+        print(f"Original image dimensions: {img_width}x{img_height}")
+
         aspect_ratio = img_width / img_height
         if self.screen_width / self.screen_height > aspect_ratio:
             new_height = self.screen_height
@@ -70,6 +73,7 @@ class SlideshowApp:
             new_height = int(new_width / aspect_ratio)
 
         img = img.resize((new_width, new_height), Image.LANCZOS)
+        print(f"Adjusted image dimensions: {new_width}x{new_height}")
 
         if self.current_image:
             # Fade out the current image
@@ -92,7 +96,7 @@ class SlideshowApp:
             alpha = start_alpha - (start_alpha - end_alpha) * (i / steps)
             img_fade = self.apply_fade(img, alpha)
             img_tk = ImageTk.PhotoImage(img_fade)
-            self.canvas.create_image(self.screen_width // 2, self.screen_height // 2, image=img_tk)
+            self.canvas.create_image((self.canvas.winfo_width()) // 2, (self.canvas.winfo_height()) // 2, image=img_tk)
             self.root.update()
             self.root.after(interval)
             self.canvas.delete("all")
@@ -107,7 +111,7 @@ class SlideshowApp:
             alpha = start_alpha + (end_alpha - start_alpha) * (i / steps)
             img_fade = self.apply_fade(img, alpha)
             img_tk = ImageTk.PhotoImage(img_fade)
-            self.canvas.create_image(self.screen_width // 2, self.screen_height // 2, image=img_tk)
+            self.canvas.create_image((self.canvas.winfo_width()) // 2, (self.canvas.winfo_height()) // 2, image=img_tk)
             self.root.update()
             self.root.after(interval)
         
