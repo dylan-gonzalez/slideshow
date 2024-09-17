@@ -52,6 +52,23 @@ Environment=XAUTHORITY=/home/slideshow/.Xauthority
 WantedBy=default.target
 ```
 
+Disable automatic screen blanking
+`/etc/systemd/system/disable_screen_blanking.service`:
+```
+[Unit]
+Description=Disable Automatic Screen Blanking
+After=xorg.service
+Requires=xorg.service
+
+[Service]
+Type=simple
+ExecStart=/home/slideshow/slideshow/disable_screen_blanking.sh
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=default.target
+```
+
 # To Do
 
 - [ ] play audio
@@ -61,3 +78,4 @@ WantedBy=default.target
 - [ ] fix fade in/out performance issues on pi
 - [ ] automatic scraping for images from NGA
 - [ ] access image files from server on network
+
