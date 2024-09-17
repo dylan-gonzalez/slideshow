@@ -14,11 +14,12 @@ def get_image_files(image_dir):
 
 # Create a class for the slideshow
 class SlideshowApp:
-    def __init__(self, root, image_files, delay=3000, fade_duration=1000):
+    def __init__(self, root, image_files, delay=3000, fade_duration=1000, fade=True):
         self.root = root
         self.root.title("Image Slideshow")
         self.delay = delay  # Slideshow delay (milliseconds)
         self.fade_duration = fade_duration  # Fade duration (milliseconds)
+        self.fade = fade
 
         # Set the window to fullscreen
         self.root.attributes('-fullscreen', False)
@@ -37,16 +38,26 @@ class SlideshowApp:
         self.canvas.config(width=self.screen_width, height=self.screen_height)
         
         # Initialize image variables to keep references
-        self.current_image = None #For applying fade effects (PIL)
-        self.current_image_tk = None #For showing the image once faded in (tk)
+        self.current_image = None 
+        self.current_image_tk = None 
         self.next_image = None
 
         # Start the slideshow
-        self.show_next_image()
+        self.root.after(100, self.show_next_image)
 
     def toggle_fullscreen(self, event=None):
         self.root.attributes('-fullscreen', not self.root.attributes('-fullscreen'))
         return "break"
+
+    def display_image(self, img):
+        """Display the image centered on the canvas."""
+        img_tk = ImageTk.PhotoImage(img)
+        self.canvas.delete("all")
+        self.canvas.create_image((self.canvas.winfo_width()) // 2, (self.canvas.winfo_height()) // 2, image=img_tk, anchor=tk.CENTER)
+        self.root.update()
+        # Keep a reference to prevent garbage collection
+        self.current_image_tk = img_tk
+        self.current_image = img
 
     def apply_fade(self, img, alpha):
         """Apply fade effect by changing the image opacity."""
@@ -58,6 +69,7 @@ class SlideshowApp:
     def show_next_image(self):
         # Get the next image from the iterator
         img = next(self.images)
+        print(f'img: {img}')
 
         # Resize image to fit while maintaining aspect ratio
         img_width, img_height = img.size
@@ -75,12 +87,19 @@ class SlideshowApp:
         #print(f"Adjusted image dimensions: {new_width}x{new_height}")
 
         if self.current_image:
-            # Fade out the current image
-            self.fade_out(self.current_image, 1.0, 0.0, self.fade_duration)
-        
+            if self.fade:
+                # Fade out the current image
+                self.fade_out(self.current_image, 1.0, 0.0, self.fade_duration)
+            else:
+                print("deleting canvas")
+                self.canvas.delete("all")
+
         # Store the next image for the fade-in effect
         self.next_image = img
-        self.fade_in(self.next_image, 0.0, 1.0, self.fade_duration)
+        if self.fade:
+            self.fade_in(self.next_image, 0.0, 1.0, self.fade_duration)
+        else:
+            self.display_image(self.next_image)
         
         # Schedule the next image
         self.root.after(self.delay + self.fade_duration, self.show_next_image)
@@ -93,12 +112,7 @@ class SlideshowApp:
         for i in range(steps):
             alpha = start_alpha - (start_alpha - end_alpha) * (i / steps)
             img_fade = self.apply_fade(img, alpha)
-            img_tk = ImageTk.PhotoImage(img_fade)
-            self.canvas.create_image((self.canvas.winfo_width()) // 2, (self.canvas.winfo_height()) // 2, image=img_tk)
-            self.root.update()
-            self.root.after(interval)
-            self.canvas.delete("all")
-            self.current_image = img_tk  # Keep a reference to the image
+            self.display_image(img_fade)
 
     def fade_in(self, img, start_alpha, end_alpha, duration):
         """Fade in effect."""
@@ -107,15 +121,8 @@ class SlideshowApp:
         for i in range(steps):
             alpha = start_alpha + (end_alpha - start_alpha) * (i / steps)
             img_fade = self.apply_fade(img, alpha)
-            img_tk = ImageTk.PhotoImage(img_fade)
-            self.canvas.create_image((self.canvas.winfo_width()) // 2, (self.canvas.winfo_height()) // 2, image=img_tk)
-            self.root.update()
-            self.root.after(interval)
+            self.display_image(img_fade)
         
-        # Keep a reference to the final image to prevent garbage collection
-        self.current_image_tk = img_tk
-        self.current_image = img
-
 # Main function to start the slideshow
 def start_slideshow():
     image_files = []
@@ -131,7 +138,7 @@ def start_slideshow():
     
     print(image_files)
     root = tk.Tk()
-    app = SlideshowApp(root, image_files, delay=3000, fade_duration=1000)  # 5000 ms delay between images, 1000 ms fade duration
+    app = SlideshowApp(root, image_files, delay=3000, fade_duration=1000, fade=False)
     root.mainloop()
 
 if __name__ == "__main__":
