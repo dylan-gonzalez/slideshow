@@ -7,8 +7,47 @@ sudo apt install python3-tk
 
 Ubuntu server:
 ```
-<insert xorg steps here>
-export DISPLAY=:1
+sudo Xorg :0 vt1 &
+export DISPLAY=:0
 
 python3 slideshow.py
+```
+
+Put them in systemd services:
+`/etc/systemd/system/xorg.service`:
+```
+[Unit]
+Description=Start Xorg Server
+After=systemd-user-sessions.service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/Xorg :0 -config /etc/X11/xorg.conf vt1
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/slideshow/.Xauthority
+Restart=always
+
+[Install]
+WantedBy=graphical.target
+```
+Make sure `allowed_users=anybody` in `/etc/X11/Xwrapper.config`.
+
+`/etc/systemd/system/slideshow.service`:
+```
+[Unit]
+Description=Run Slideshow Python Script
+After=xorg.service
+Requires=xorg.service
+
+[Service]
+Type=simple
+ExecStartPre=/bin/sleep 10
+ExecStart=/home/slideshow/slideshow/startup.sh
+User=slideshow
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/slideshow/.Xauthority
+
+[Install]
+WantedBy=default.target
 ```
