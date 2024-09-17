@@ -51,3 +51,13 @@ Environment=XAUTHORITY=/home/slideshow/.Xauthority
 [Install]
 WantedBy=default.target
 ```
+
+# To Do
+
+- [ ] play audio
+      - ideally connect to Spotify API, but I think this requires OAuth
+      - local mp4 files
+- [ ] display image metadata
+- [ ] fix fade in/out performance issues on pi
+- [ ] automatic scraping for images from NGA
+- [ ] access image files from server on network
