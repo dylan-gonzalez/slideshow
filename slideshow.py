@@ -151,7 +151,7 @@ def start_slideshow():
     
     print(image_files)
     root = tk.Tk()
-    app = SlideshowApp(root, image_files, delay=30000, fade_duration=1000, fade=False)
+    app = SlideshowApp(root, image_files, delay=100000, fade_duration=1000, fade=False)
     root.mainloop()
 
 if __name__ == "__main__":
