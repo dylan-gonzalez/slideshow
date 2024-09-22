@@ -88,6 +88,16 @@ IdleAction=ignore
 IdleAction=ignore
 ```
 
+`/etc/X11/xorg.conf`:
+```
+Section "ServerFlags"
+    Option "BlankTime" "0"       # Disables screen blanking
+    Option "StandbyTime" "0"     # Disables standby mode
+    Option "SuspendTime" "0"     # Disables suspend mode
+    Option "OffTime" "0"         # Disables power off mode
+EndSection
+```
+
 ```
 sudo systemctl mask sleep.target
 sudo systemctl mask suspend.target
