@@ -62,11 +62,22 @@ Requires=xorg.service
 
 [Service]
 Type=simple
+ExecStartPre=/bin/sleep 10
 ExecStart=/home/slideshow/slideshow/disable_screen_blanking.sh
 Environment=DISPLAY=:0
 
 [Install]
 WantedBy=default.target
+```
+
+`/etc/systemd/sleep.conf`:
+```
+IdleAction=ignore
+```
+
+`/etc/systemd/logind.conf`:
+```
+IdleAction=ignore
 ```
 
 # To Do
@@ -78,4 +89,3 @@ WantedBy=default.target
 - [ ] fix fade in/out performance issues on pi
 - [ ] automatic scraping for images from NGA
 - [ ] access image files from server on network
-

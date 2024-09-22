@@ -3,6 +3,7 @@ import tkinter as tk
 from itertools import cycle
 from PIL import Image, ImageTk, ImageEnhance
 import random
+import gc
 
 IMAGES_DIR = '/home/slideshow/slideshow/images'
 QUOTES_IMAGES_DIR = '/home/slideshow/slideshow/quotes_images/1920x1080'
@@ -33,7 +34,8 @@ class SlideshowApp:
         self.screen_height = self.root.winfo_screenheight()
 
         # Load the images
-        self.images = cycle([Image.open(img) for img in image_files])
+        #self.images = cycle([Image.open(img) for img in image_files])
+        self.images = cycle(image_files)
 
         # Create canvas to display the images
         self.canvas = tk.Canvas(root, bg='black', highlightthickness=0)
@@ -71,7 +73,8 @@ class SlideshowApp:
 
     def show_next_image(self):
         # Get the next image from the iterator
-        img = next(self.images)
+        img_path = next(self.images)
+        img = Image.open(img_path)
         print(f'img: {img}')
 
         # Resize image to fit while maintaining aspect ratio
@@ -95,6 +98,7 @@ class SlideshowApp:
                 self.fade_out(self.current_image, 1.0, 0.0, self.fade_duration)
             else:
                 print("deleting canvas")
+                self.current_image.close()
                 self.canvas.delete("all")
 
         # Store the next image for the fade-in effect
@@ -106,6 +110,7 @@ class SlideshowApp:
         
         # Schedule the next image
         self.root.after(self.delay + self.fade_duration, self.show_next_image)
+        gc.collect()
 
     def fade_out(self, img, start_alpha, end_alpha, duration):
         """Fade out effect."""
@@ -146,7 +151,7 @@ def start_slideshow():
     
     print(image_files)
     root = tk.Tk()
-    app = SlideshowApp(root, image_files, delay=15000, fade_duration=1000, fade=False)
+    app = SlideshowApp(root, image_files, delay=30000, fade_duration=1000, fade=False)
     root.mainloop()
 
 if __name__ == "__main__":
