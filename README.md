@@ -1,3 +1,4 @@
+# Setup
 ```
 python3 -m venv venv
 source venv/bin/activate
@@ -5,15 +6,21 @@ pip install -r requirements.txt
 sudo apt install python3-tk
 ```
 
-Ubuntu server:
+## Manual
+Graphics:
 ```
 sudo Xorg :0 vt1 &
 export DISPLAY=:0
+```
 
+Run:
+```
 python3 slideshow.py
 ```
 
-Put them in systemd services:
+## Auto
+Same as (manual)[#manual] but using `systemd` to run on startup.
+
 `/etc/systemd/system/xorg.service`:
 ```
 [Unit]
@@ -70,6 +77,7 @@ Environment=DISPLAY=:0
 WantedBy=default.target
 ```
 
+### Disable sleeping
 `/etc/systemd/sleep.conf`:
 ```
 IdleAction=ignore
@@ -78,6 +86,13 @@ IdleAction=ignore
 `/etc/systemd/logind.conf`:
 ```
 IdleAction=ignore
+```
+
+```
+sudo systemctl mask sleep.target
+sudo systemctl mask suspend.target
+sudo systemctl mask hibernate.target
+sudo systemctl mask hybrid-sleep.target
 ```
 
 # To Do
