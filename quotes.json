@@ -1,0 +1,781 @@
+{
+  "quotes": [
+    {
+        "quote": "Learning never exhausts the mind.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Nothing strengthens authority so much as silence.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Tears come from the heart and not from the brain.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "As a well-spent day brings happy sleep, so a life well spent brings happy death.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The human foot is a masterpiece of engineering and a work of art.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The beginnings and ends of shadow lie between the light and darkness and may be infinitely diminished and infinitely increased. Shadow is the means by which bodies display their form. The forms of bodies could not be understood in detail but for shadow.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Nature is the source of all true knowledge. She has her own logic, her own laws, she has no effect without cause nor invention without necessity.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Time stays long enough for anyone who will use it.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Science is the captain, and practice the soldiers.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Marriage is like putting your hand into a bag of snakes in the hope of pulling out an eel.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "He who loves practice without theory is like the sailor who boards ship without a rudder and compass and never knows where he may cast.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Water is the driving force of all nature.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "He who wishes to be rich in a day will be hanged in a year.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Why does the eye see a thing more clearly in dreams than the imagination when awake?",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "A beautiful body perishes, but a work of art dies not.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Our life is made by the death of others.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "In rivers, the water that you touch is the last of what has passed and the first of that which comes; so with present time.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "You can have no dominion greater or less than that over yourself.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Time abides long enough for those who make use of it.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Where the spirit does not work with the hand, there is no art.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Experience never errs; it is only your judgments that err by promising themselves effects such as are not caused by your experiments.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The function of muscle is to pull and not to push, except in the case of the genitals and the tongue.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Medicine is the restoration of discordant elements; sickness is the discord of the elements infused into the living body.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Just as courage imperils life, fear protects it.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The human bird shall take his first flight, filling the world with amazement, all writings with his fame, and bringing eternal glory to the nest whence he sprang.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Just as food eaten without appetite is a tedious nourishment, so does study without zeal damage the memory by not assimilating what it absorbs.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Necessity is the mistress and guide of nature. Necessity is the theme and inventress of nature, her curb and her eternal law.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Intellectual passion drives out sensuality.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Men of lofty genius when they are doing the least work are most active.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "All knowledge which ends in words will die as quickly as it came to life, with the exception of the written word: which is its mechanical part.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The greatest deception men suffer is from their own opinions.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "I love those who can smile in trouble, who can gather strength from distress, and grow brave by reflection. 'Tis the business of little minds to shrink, but they whose heart is firm, and whose conscience approves their conduct, will pursue their principles unto death.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Iron rusts from disuse; water loses its purity from stagnation... even so does inaction sap the vigor of the mind.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Art is never finished, only abandoned.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Poor is the pupil who does not surpass his master.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "There are three classes of people: those who see, those who see when they are shown, those who do not see.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "While I thought that I was learning how to live, I have been learning how to die.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The noblest pleasure is the joy of understanding.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "All our knowledge has its origins in our perceptions.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Where there is shouting, there is no true knowledge.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The smallest feline is a masterpiece.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Men of lofty genius sometimes accomplish the most when they work least, for their minds are occupied with their ideas and the perfection of their conceptions, to which they afterwards give form.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Who sows virtue reaps honor.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "I have offended God and mankind because my work didn't reach the quality it should have.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "He who is fixed to a star does not change his mind.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Blinding ignorance does mislead us. O! Wretched mortals, open your eyes!",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "It's easier to resist at the beginning than at the end.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Human subtlety will never devise an invention more beautiful, more simple or more direct than does nature because in her inventions nothing is lacking, and nothing is superfluous.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Knowledge of the past and of the places of the earth is the ornament and food of the mind of man.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Painting is concerned with all the 10 attributes of sight; which are: Darkness, Light, Solidity and Colour, Form and Position, Distance and Propinquity, Motion and Rest.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Every action needs to be prompted by a motive.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The truth of things is the chief nutriment of superior intellects.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Life well spent is long.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The natural desire of good men is knowledge.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "I have always felt it is my destiny to build a machine that would allow man to fly.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "You do ill if you praise, but worse if you censure, what you do not understand.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The senses are of the earth, the reason stands apart from them in contemplation.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "I have wasted my hours.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Nature never breaks her own laws.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Just as courage is the danger of life, so is fear its safeguard.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The divisions of Perspective are 3, as used in drawing; of these, the first includes the diminution in size of opaque objects; the second treats of the diminution and loss of outline in such opaque objects; the third, of the diminution and loss of colour at long distances.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "For, verily, great love springs from great knowledge of the beloved object, and if you little know it, you will be able to love it only little or not at all.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Anyone who conducts an argument by appealing to authority is not using his intelligence; he is just using his memory.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "It is better to imitate ancient than modern work.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "As every divided kingdom falls, so every mind divided between many studies confounds and saps itself.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The painter who draws merely by practice and by eye, without any reason, is like a mirror which copies every thing placed in front of it without being conscious of their existence.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Although nature commences with reason and ends in experience it is necessary for us to do the opposite, that is to commence with experience and from this to proceed to investigate the reason.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Each man is always in the middle of the surface of the earth and under the zenith of his own hemisphere, and over the centre of the earth.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "There is no object so large but that at a great distance from the eye it does not appear smaller than a smaller object near.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Weight, force and casual impulse, together with resistance, are the four external powers in which all the visible actions of mortals have their being and their end.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Good men by nature, wish to know. I know that many will call this useless work... men who desire nothing but material riches and are absolutely devoid of that of wisdom, which is the food and only true riches of the mind.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Many are they who have a taste and love for drawing, but no talent; and this will be discernible in boys who are not diligent and never finish their drawings with shading.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Our body is dependant on Heaven and Heaven on the Spirit.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "In order to arrive at knowledge of the motions of birds in the air, it is first necessary to acquire knowledge of the winds, which we will prove by the motions of water in itself, and this knowledge will be a step enabling us to arrive at the knowledge of beings that fly between the air and the wind.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "To such an extent does nature delight and abound in variety that among her trees there is not one plant to be found which is exactly like another; and not only among the plants, but among the boughs, the leaves and the fruits, you will not find one which is exactly similar to another.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "People talk to people who perceive nothing, who have open eyes and see nothing; they shall talk to them and receive no answer; they shall adore those who have ears and hear nothing; they shall burn lamps for those who do not see.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The Medici created and destroyed me.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "I have found that, in the composition of the human body as compared with the bodies of animals, the organs of sense are duller and coarser. Thus, it is composed of less ingenious instruments, and of spaces less capacious for receiving the faculties of sense.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Common Sense is that which judges the things given to it by other senses.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Beyond a doubt truth bears the same relation to falsehood as light to darkness.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "There are four Powers: memory and intellect, desire and covetousness. The two first are mental and the others sensual. The three senses: sight, hearing and smell cannot well be prevented; touch and taste not at all.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "It seems that it had been destined before that I should occupy myself so thoroughly with the vulture, for it comes to my mind as a very early memory, when I was still in the cradle, a vulture came down to me, he opened my mouth with his tail and struck me a few times with his tail against my lips.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "How many emperors and how many princes have lived and died and no record of them remains, and they only sought to gain dominions and riches in order that their fame might be ever-lasting.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The poet ranks far below the painter in the representation of visible things, and far below the musician in that of invisible things.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Man and animals are in reality vehicles and conduits of food, tombs of animals, hostels of Death, coverings that consume, deriving life by the death of others.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The length of a man's outspread arms is equal to his height.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The spirit desires to remain with its body, because, without the organic instruments of that body, it can neither act, nor feel anything.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The mind of the painter must resemble a mirror, which always takes the colour of the object it reflects and is completely occupied by the images of as many objects as are in front of it.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "The painter who is familiar with the nature of the sinews, muscles, and tendons, will know very well, in giving movement to a limb, how many and which sinews cause it; and which muscle, by swelling, causes the contraction of that sinew; and which sinews, expanded into the thinnest cartilage, surround and support the said muscle.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Experience does not err. Only your judgments err by expecting from her what is not in her power.",
+        "author": "Leonardo Da Vinci"
+    },
+    {
+        "quote": "Never interrupt your enemy when he is making a mistake.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The torment of precautions often exceeds the dangers to be avoided. It is sometimes better to abandon one's self to destiny.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "In politics stupidity is not a handicap.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Religion is what keeps the poor from murdering the rich.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Impossible is a word to be found only in the dictionary of fools.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Women are nothing but machines for producing children.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "If you wish to be a success in the world, promise everything, deliver nothing.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "A true man hates no one.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "If you want a thing done well, do it yourself.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Water, air, and cleanness are the chief articles in my pharmacy.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The strong man is the one who is able to intercept at will the communication between the senses and the mind.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Men are moved by two levers only: fear and self interest.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Imagination rules the world.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "I am sometimes a fox and sometimes a lion. The whole secret of government lies in knowing when to be the one or the other.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The first virtue in a soldier is endurance of fatigue; courage is only the second virtue.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "It requires more courage to suffer than to die.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Power is my mistress. I have worked too hard at her conquest to allow anyone to take her away from me.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "History is the version of past events that people have decided to agree upon.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Four hostile newspapers are more to be feared than a thousand bayonets.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The people to fear are not those who disagree with you, but those who disagree with you and are too cowardly to let you know.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "From the heights of these pyramids, forty centuries look down on us.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Ten people who speak make more noise than ten thousand who are silent.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "If I had to choose a religion, the sun as the universal giver of life would be my god.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "A man will fight harder for his interests than for his rights.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "An army marches on its stomach.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "There is only one step from the sublime to the ridiculous.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "In order to govern, the question is not to follow out a more or less valid theory but to build with whatever materials are at hand. The inevitable must be accepted and turned to advantage.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "A throne is only a bench covered with velvet.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "It is the cause, not the death, that makes the martyr.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The herd seek out the great, not for their sake but for their influence; and the great welcome them out of vanity or need.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Courage is like love; it must have hope for nourishment.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Public opinion is the thermometer a monarch should constantly consult.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Death is nothing, but to live defeated and inglorious is to die daily.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "History is a set of lies agreed upon.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "A leader is a dealer in hope.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Glory is fleeting, but obscurity is forever.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Victory belongs to the most persevering.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The battlefield is a scene of constant chaos. The winner will be the one who controls that chaos, both his own and the enemies.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "A soldier will fight long and hard for a bit of colored ribbon.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "There is no such thing as accident; it is fate misnamed.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The best cure for the body is a quiet mind.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Ability is nothing without opportunity.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "You must not fight too often with one enemy, or you will teach him all your art of war.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Great ambition is the passion of a great character. Those endowed with it may perform very good or very bad acts. All depends on the principles which direct them.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "I can no longer obey; I have tasted command, and I cannot give it up.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "To do all that one is able to do, is to be a man; to do all that one would like to do, is to be a god.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Take time to deliberate, but when the time for action has arrived, stop thinking and go in.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The truest wisdom is a resolute determination.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Music is the voice that tells us that the human race is greater than it knows.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "There are only two forces in the world, the sword and the spirit. In the long run the sword will always be conquered by the spirit.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The surest way to remain poor is to be an honest man.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Men are more easily governed through their vices than through their virtues.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "One must change one's tactics every ten years if one wishes to maintain one's superiority.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "When small men attempt great enterprises, they always end by reducing them to the level of their mediocrity.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Nothing is more difficult, and therefore more precious, than to be able to decide.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Soldiers generally win battles; generals get credit for them.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "He who knows how to flatter also knows how to slander.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "He who fears being conquered is sure of defeat.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "There are only two forces that unite men - fear and interest.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "I love power. But it is as an artist that I love it. I love it as a musician loves his violin, to draw out its sounds and chords and harmonies.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Respect the burden.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "In politics... never retreat, never retract... never admit a mistake.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "With audacity one can undertake anything, but not do everything.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Riches do not consist in the possession of treasures, but in the use made of them.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Religion is excellent stuff for keeping common people quiet.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The best way to keep one's word is not to give it.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "A man cannot become an atheist merely by wishing it.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "One should never forbid what one lacks the power to prevent.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "If they want peace, nations should avoid the pin-pricks that precede cannon shots.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The great proof of madness is the disproportion of one's designs to one's means.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "A revolution can be neither made nor stopped. The only thing that can be done is for one of several of its children to give it a direction by dint of victories.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "France has more need of me than I have need of France.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Let the path be open to talent.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "It is my wish that my ashes may repose on the banks of the Seine, in the midst of the French people, whom I have loved so well.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "I am the successor, not of Louis XVI, but of Charlemagne.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "All religions have been made by men.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "We must laugh at man to avoid crying for him.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "War is the business of barbarians.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Medicines are only fit for old people.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "England is a nation of shopkeepers.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Among those who dislike oppression are many who like to oppress.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The extent of your consciousness is limited only by your ability to love and to embrace with your love the space around you, and all it contains.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "What is history but a fable agreed upon?",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The army is the true nobility of our country.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Ambition never is in a greater hurry than I; it merely keeps pace with circumstances and with my general way of thinking.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "A revolution is an idea which has found its bayonets.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Throw off your worries when you throw off your clothes at night.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Doctors will have more lives to answer for in the next world than even we generals.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "I have only one counsel for you - be master.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The French complain of everything, and always.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "There is one kind of robber whom the law does not strike at, and who steals what is most precious to men: time.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The battle of Austerlitz is the grandest of all I have fought.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "I made all my generals out of mud.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Men take only their needs into consideration - never their abilities.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The act of policing is, in order to punish less often, to punish more severely.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The human race is governed by its imagination.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "A Constitution should be short and obscure.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Skepticism is a virtue in history as well as in philosophy.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "The infectiousness of crime is like that of the plague.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "Forethought we may have, undoubtedly, but not foresight.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "You must not fear death, my lads; defy him, and you drive him into the enemy's ranks.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "When soldiers have been baptized in the fire of a battle-field, they have all one rank in my eyes.",
+        "author": "Napoleon Bonaparte"
+    },
+    {
+        "quote": "A celebrated people lose dignity upon a closer view.",
+        "author": "Napoleon Bonaparte"
+    }
+  ]
+}
+
